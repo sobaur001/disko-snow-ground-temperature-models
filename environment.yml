@@ -1,0 +1,17 @@
+name: pymc311
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pymc
+  - python=3.11
+  - arviz
+  - ipykernel
+  - scipy
+  - numpy
+  - matplotlib
+  - pandas
+  - seaborn
+  - bambi
+  - statsmodels
+prefix: C:\Users\sobaur001\AppData\Local\miniforge3\envs\pymc311
