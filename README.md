@@ -9,7 +9,7 @@ The study investigates how snow depth, snow density, vegetation, and topographic
 
 - `sensor_data.csv` – processed temperature, topography, vegetation and snow measurements
 - `Bayesian_models.ipynb` – analysis notebook containig model implementation
-- `environment.yml`
+- `environment.yml` – conda environment file
   
 ## Data
 
@@ -37,10 +37,28 @@ Model descriptions, assumptions, and evaluation metrics are documented within th
 
 ## Reproducing the analysis
 
-Run the notebook in the environment specified in `environment.yml` to reproduce the analysis.
+Create a conda environment based on `environment.yml`:
+
+```
+conda create -f environment.yml
+```
+
+Then activate the environment with
+
+```
+conda activate pymc311
+```
+
+From this environment, start jupyter
+
+```
+jupyter notebook
+```
+
+and you will be able to reproduce the analysis in the `Bayesian_models.ipynb` notebook.
 
 ## Citation
 
 If you use this code or data, please cite:
 
-Bauriedl, S. R. et al. (2026). *Small-scale snow cover variability and its effect on ground surface temperatures in West Greenland*.
+Bauriedl, S. R. et al. (2026). *Small-scale snow cover variability and its effect on ground surface temperatures in West Greenland*. Under review.
