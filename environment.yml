@@ -6,6 +6,7 @@ dependencies:
   - python=3.11
   - arviz
   - ipykernel
+  - ipywidgets
   - scipy
   - numpy
   - matplotlib
